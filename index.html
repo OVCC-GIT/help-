@@ -33,16 +33,36 @@
                 80% {background-color: rgb(126, 126, 126);}
                 100% {background-color: rgb(181, 181, 181);}
            }
+           #godhelp{
+            border-top: 3px dotted red;
+            border-right: 3px dashed green;
+            border-bottom: 3px dotted blue;
+            border-left: 3px dotted orange;
+            margin-top: 50px;
+           }
        </style>
    </head>
    <body>
        <ul>
-           <li><a href="">Info</a></li>
+
            <li><a href="">Guess the Number info</a></li>
            <li><a href="index.py">Download</a></li>
+           
            <!--And so on-->
           
        </ul>
+       <div id="godhelp" style="background-color: black; 
+         animation: color-change 5s infinite;
+         text-align: center; font-size: 15pxpx;
+         border-radius: 50px; padding: 50px;
+          ">To start playing, click the Download button<br>First you will choose the the top of the range<br> Then you will try to guess the number<br>You should also probably set a goal</div>
+         <style>
+         @keyframes color-change {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: yellow; }
+            100% { color: orange; } } </style>
    </body>
    </html>
 
